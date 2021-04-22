@@ -283,4 +283,4 @@ Note that:
 
 To disable proxy configuration, set `nodeProxySettings` to `ProxySettings.OFF` in the `node` extension. In this case, the plugin will do nothing regarding the proxy configuration and you may want to configure it manually, for instance using the `.npmrc` file as explained [here](https://www.devtech101.com/2016/07/21/how-to-set-npm-proxy-settings-in-npmrc/) for `npm`.
 
-To force the proxy configuration to be done even if one of the proxy environment variables is already set (i.e. override the existing proxy configuration), set `nodeProxySettings` to `ProxySettings.FORCE` in the `node` extension.
+To force the proxy configuration to be done even if one of the proxy environment variables is already set (i.e. override the existing proxy configuration), set `nodeProxySettings` to `ProxySettings.FORCED` in the `node` extension.
